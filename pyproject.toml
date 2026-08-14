@@ -1,0 +1,17 @@
+[project]
+name = "python-project-49"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AleksandrGrafin", email = "Aleksandr.Sh1991@yandex.ru" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+python-project-49 = "python_project_49:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
