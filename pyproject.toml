@@ -1,5 +1,5 @@
 [project]
-name = "python-project-49"
+name = "hexlet-code"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -11,7 +11,12 @@ dependencies = []
 
 [project.scripts]
 python-project-49 = "python_project_49:main"
+brain-games = "brain_games.scripts.brain_games:main"
 
 [build-system]
-requires = ["uv_build>=0.12.1,<0.13.0"]
-build-backend = "uv_build"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["brain_games"]
+
