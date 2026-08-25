@@ -14,6 +14,7 @@ dependencies = [
 [project.scripts]
 python-project-49 = "python_project_49:main"
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.games.game_number.brain_even:main"
 
 [build-system]
 requires = ["hatchling"]
@@ -26,4 +27,5 @@ packages = ["brain_games"]
 dev = [
     "ruff>=0.16.4",
 ]
+
 
