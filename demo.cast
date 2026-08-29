@@ -1,0 +1,12 @@
+{"version":3,"term":{"cols":80,"rows":24,"type":"xterm-256color","theme":{"fg":"#ffffff","bg":"#1e1e1e","palette":"#000000:#990000:#00a600:#999900:#0000b3:#b300b3:#00a6b3:#bfbfbf:#666666:#e60000:#00d900:#e6e600:#0000ff:#e600e6:#00e6e6:#e6e6e6"}},"timestamp":1787977644,"env":{"SHELL":"/bin/zsh"}}
+[0.246, "o", "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                               \r \r"]
+[0.000, "o", "\u001b]7;file://MacBook-Air-Aleksandr.local/Users/aleksandrselbogasev/my-project/python-project-49\u0007"]
+[0.001, "o", "\u001b]2;aleksandrselbogasev@MacBook-Air-Aleksandr\u0007\u001b]1;..on-project-49\u0007"]
+[0.002, "o", "\u001b]7;file://MacBook-Air-Aleksandr.local/Users/aleksandrselbogasev/my-project/python-project-49\u001b\\"]
+[0.001, "o", "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mpython-project-49\u001b[00m \u001b[K"]
+[0.000, "o", "\u001b[?1h\u001b=\u001b[?2004h"]
+[0.097, "o", "\r\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mpython-project-49\u001b[00m \u001b[01;34mgit:(\u001b[31mmain\u001b[34m) \u001b[33m✗\u001b[00m \u001b[K"]
+[14.628, "r", "80x12"]
+[0.002, "o", "\r\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mpython-project-49\u001b[00m \u001b[01;34mgit:(\u001b[31mmain\u001b[34m) \u001b[33m✗\u001b[00m "]
+[7.885, "r", "80x6"]
+[0.001, "o", "\r\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mpython-project-49\u001b[00m \u001b[01;34mgit:(\u001b[31mmain\u001b[34m) \u001b[33m✗\u001b[00m "]
