@@ -1,5 +1,5 @@
 import random
-from brain_games.cli import welcome_user
+from brain_calc.cli import welcome_user
 
 def main():
     name = welcome_user()
