@@ -6,10 +6,13 @@ def main():
     print ('What is the result of the expression?')
     wins = 0
     
+    signs =['+', '-', '*']
+    random.shuffle(signs)
+
     while wins <3:
         i = random.randint (1, 100)
         b = random.randint (1, 100)
-        sig =random.choice (['+', '-', '*'])
+        sig = signs[wins]
         print (f'Question:{i} {sig} {b}')
         
         if sig == '+':
