@@ -15,6 +15,7 @@ dependencies = [
 python-project-49 = "python_project_49:main"
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.games.game_number.brain_even:main"
+brain-calc = "brain_calc.sripts.brain_calc:main"
 brain-calc = "brain_calc.games.game_calculator.brain_calc:main"
 
 [build-system]
