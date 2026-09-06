@@ -1,0 +1,50 @@
+import random
+from brain_games.cli import welcome_user
+
+def main():
+    name = welcome_user()
+    start = random.randint(3, 8)
+    length = 10
+    wins = 0
+    
+    
+    print ('What number is missing in the progression?')
+
+
+
+    while wins <3:
+        hidden_index = random.randint(4, length-2)
+        step = random.randint(3, 5)
+        spisok =[]
+        for i in range(length):
+            value = start + i * step
+            
+            if i ==  hidden_index:
+                spisok.append("..")
+                correct_answer = value
+            
+            else:
+                spisok.append(value)
+                
+        spi = ' '.join(map(str, spisok))
+            
+        print (f'Question: {spi}')
+            
+        user_answer = int(input ("Your answer: "))
+        
+        if user_answer == correct_answer:
+            wins += 1
+            print ("Correct!")
+            
+        else:
+            print(
+                f"{user_answer} is wrong answer ;(. Correct answer was {correct_answer}."
+                f"\nLet's try again, {name}!"
+            )
+            break
+
+    else:
+        print (f'Congratulations, {name}!')
+
+if __name__ == '__main__':
+    main()
