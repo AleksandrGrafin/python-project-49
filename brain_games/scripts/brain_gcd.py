@@ -1,7 +1,8 @@
-from brain_games.games.brain_gcd import main as run_gcd_game
+from brain_games.games.engine import start_game
+from brain_games.games.brain_gcd import INSTRUCTION, question_answer
 
 def main():
-    run_gcd_game()
+    start_game(INSTRUCTION, question_answer)
 
 
 if __name__ == '__main__':
