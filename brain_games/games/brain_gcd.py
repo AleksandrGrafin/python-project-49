@@ -4,11 +4,9 @@ INSTRUCTION = 'Find the greatest common divisor of given numbers.'
 
 
 def question_answer():
-    a = random.randint(-100, 100)
-    b = random.randint(-100, 100)
-    x = abs(a)
-    y = abs(b)
-    question = f'Qwestion:{x}, {y}'        
+    a = random.randint(1, 100)
+    b = random.randint(1, 100)
+    question = f'{x}, {y}'        
     
     if x > y:
         x %= y
