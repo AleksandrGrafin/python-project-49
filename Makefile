@@ -1,4 +1,5 @@
-.PHONY: install
+.PHONY: install test lint build
+
 install:
 	uv sync
 brain-games:
@@ -9,5 +10,6 @@ package-install:
 	uv  tool install dist/*.whl
 lint:
 	uv run ruff check brain_games
-brain_even
-	uv run brain_even.py
+test:
+	uv run pytest || [ $$? -eq 5 ]
+
