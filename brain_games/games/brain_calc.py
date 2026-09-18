@@ -1,6 +1,6 @@
 import random
 
-INSTRUCTION = 'What is the result of the exppression?'
+INSTRUCTION = 'What is the result of the expression?'
 
 def question_answer():
     i = random.randint (1, 100)
