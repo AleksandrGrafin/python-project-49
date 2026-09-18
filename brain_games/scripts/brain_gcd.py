@@ -1,5 +1,6 @@
-from brain_games.games.engine import start_game
 from brain_games.games.brain_gcd import INSTRUCTION, question_answer
+from brain_games.games.engine import start_game
+
 
 def main():
     start_game(INSTRUCTION, question_answer)

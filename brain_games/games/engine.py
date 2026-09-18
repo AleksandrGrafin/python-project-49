@@ -3,16 +3,16 @@ from brain_games.cli import welcome_user
 
 def start_game(instruction, question_answer):
     name = welcome_user()
-    print (instruction)
+    print(instruction)
     
     wins_count = 3
     
-    for _ in range (wins_count):
+    for _ in range(wins_count):
         question, correct_answer = question_answer()
         print(f'Question: {question}')
         user_answer = input('Your answer: ')
-        if user_answer ==str(correct_answer):
-           print('Correct!')
+        if user_answer == str(correct_answer):
+            print('Correct!')
         else:
             print(
                 f"'{user_answer}' is wrong answer ;(."
@@ -21,4 +21,4 @@ def start_game(instruction, question_answer):
                 )
             break
     else:
-        print (f'Congratulations, {name}!')
+        print(f'Congratulations, {name}!')

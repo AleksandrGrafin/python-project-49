@@ -2,11 +2,12 @@ import random
 
 INSTRUCTION = 'What is the result of the expression?'
 
+
 def question_answer():
-    i = random.randint (1, 100)
-    b = random.randint (1, 100)
-    signs = ['+' , '-' , '*']
-    sig =  random.choice(signs)
+    i = random.randint(1, 100)
+    b = random.randint(1, 100)
+    signs = ['+', '-', '*']
+    sig = random.choice(signs)
     question = f'{i} {sig} {b}'
 
     if sig == '+':
@@ -16,4 +17,4 @@ def question_answer():
     elif sig == '*':
         correct_answer = i * b
   
-    return question,str(correct_answer)
+    return question, str(correct_answer)
