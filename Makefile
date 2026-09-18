@@ -1,15 +1,15 @@
 .PHONY: install test lint build
 
 install:
-	uv sync
+	pip install --user .
 brain-games:
-	uv run brain-games
+	brain-games
 build:
-	uv build
+	python3 -m build
 package-install:
-	uv  tool install dist/*.whl
+	pip install --user dist/*.whl
 lint:
-	uv run ruff check brain_games
+	ruff check brain_games
 test:
 	uv run pytest || [ $$? -eq 5 ]
 
